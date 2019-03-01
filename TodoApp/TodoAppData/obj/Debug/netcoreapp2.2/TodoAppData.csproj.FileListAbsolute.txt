@@ -1,0 +1,9 @@
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\bin\Debug\netcoreapp2.2\TodoAppData.deps.json
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\bin\Debug\netcoreapp2.2\TodoAppData.dll
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.csprojAssemblyReference.cache
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.csproj.CoreCompileInputs.cache
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.AssemblyInfoInputs.cache
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.AssemblyInfo.cs
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\bin\Debug\netcoreapp2.2\TodoAppData.pdb
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.dll
+C:\src\apps\postgresql-ef-dotnet-core\TodoApp\TodoAppData\obj\Debug\netcoreapp2.2\TodoAppData.pdb
