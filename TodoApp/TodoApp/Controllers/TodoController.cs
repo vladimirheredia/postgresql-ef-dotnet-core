@@ -36,5 +36,27 @@ namespace TodoApp.Controllers
             //this is what we'll return 
             return Ok("Successfully created a todo item");
         }
+
+        [HttpPut("{id:guid}")]
+        public IActionResult UpdateTodo(Guid id)
+        {
+            var todo = Context.Todo.Find(id);
+            todo.Title = "This is an updated title";
+            todo.Body = "You still need to do the laundry!";
+            Context.Update(todo);
+            Context.SaveChanges();
+
+            return Ok("Sucessfully updated todo item");
+        }
+
+        [HttpDelete("{id:guid}")]
+        public IActionResult DeleteTodo(Guid id)
+        {
+            var todo = Context.Todo.Find(id);
+            Context.Remove(todo);
+            Context.SaveChanges();
+
+            return Ok("Sucessfully Removed the item!");
+        }
     }
 }

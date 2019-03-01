@@ -36,6 +36,7 @@ namespace TodoApp
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            // Get Postgresql database connection from the app settings file.
             services.AddDbContext<TodoAppContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
         }
 
